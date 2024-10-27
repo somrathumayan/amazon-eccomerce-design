@@ -1,0 +1,32 @@
+.product{
+    display: flex;
+    border-bottom: 2px solid gray;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.product img{
+    height: 250px;
+    width: 250px;
+}
+
+.prod_detail, h2, p,button {
+    margin-left: 15px;
+}
+.product h2{
+    transition-duration: .5s;
+    cursor: pointer;
+}
+.product h2:hover{
+    color: chocolate;
+    
+}
+.product button{
+    background: goldenrod;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 800;
+}
